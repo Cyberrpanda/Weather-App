@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    overflow-y: 0;
+}
+
+body{
+    background-image: url("./media/pascal-debrunner-csQ3Bad5b8M-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.search-bar{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar input{
+    border: 0;
+    outline: 0;
+    background-color: #EEECED;
+    padding: 10px 25px;
+    height: 60%;
+    flex: 1;
+    margin-right: 16px;
+    border-radius: 15px;
+}
+.search-bar img{
+    width: 30px;
+}
+.search-bar button{
+    border: 0;
+    outline: 0;
+    background-color: #EEECED;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search-bar img{
+    width: 16px;
+}
+.weather img{
+    width: 180px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 70px;
+}
+.humidity, .Wind{
+    font-size: 20px;
+}
+.card{
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 470px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    text-align: center;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+}
+.weather{
+    display: none;
+}
+.error{
+    color: white;
+    display: none;
+}
